@@ -16,7 +16,7 @@
 在您的服务器终端（Host）执行以下操作，下载代码并准备 Docker 环境。
 
 ### 1.1 下载代码与数据
-
+```bash
 # 1. 克隆仓库
 git clone [https://github.com/rl-tools/raptor.git](https://github.com/rl-tools/raptor.git)
 cd raptor
@@ -31,7 +31,7 @@ cd rl-tools
 tar -xvf ../data/foundation-policy-v1-data.tar.gz
 cd ..
 
-
+```
 
 ### 1.2 启动持久化 Docker 容器
 
@@ -235,6 +235,7 @@ echo "正在测试最终模型: $FINAL_MODEL"
 
 ---
 
+*Created by BDI & AI Assistant*
 
 ```
 
